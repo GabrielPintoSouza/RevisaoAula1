@@ -13,9 +13,9 @@ int main()
     printf("Digite o segundo numero:\n");
     scanf("%f", &numero2);
 
-    printf("Primeiro digito: %f ", numero1);
-    printf("Segundo digito: %f", numero2);
+    printf("Digite o caractere correspondente a operacao que sera executada: \n+(adicao) \n-(subtracao) \n*(multiplicacao) \n/(divisao):\n");
+    scanf("%c", &operacao);
 
-
+    printf("A operacao selecionada foi: %c", operacao);
     return 0;
 }
